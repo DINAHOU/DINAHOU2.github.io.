@@ -1,0 +1,178 @@
+body {
+  background-image: url("images/background.png"); /* 设置图片背景 */
+  background-size: cover; /* 背景图片自适应大小 */
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 背景图片不重复 */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(252, 191, 124);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+ display: flex;
+ justify-content: center;
+}
+
+.title-icon > img {
+  width: 5vw;
+  height: 5vw;
+  margin-left: 1vw;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.navigator {
+  position: absolute;
+  left: 0;
+  top: 118px;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navigator ul li {
+  margin: 0 auto;
+  display: inline;
+  margin-top: 1rem;
+  padding-right: 40px;
+}
+
+.navigator ul li a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigator ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.bottom {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 5vh;
+  min-width: 50vw;
+  max-width: 73vw;
+  min-height: 80vh;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.index-content {
+  margin-top: 10px;
+  display: flex;
+}
+
+.index-content-title, .content-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.index-content-title > img {
+  margin-top: 20px;
+  width: 10vw;
+  height: 10vw;
+}
+
+.index-content-text, .content-text {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-indent: 2em;
+}
+
+.index-content2 img {
+  width: 12vw;
+  height: 12vw;
+}
+
+.diagnosis-img {
+  display: flex;
+  align-items: center;
+}
+
+.treatment-img {
+  display: flex;
+  align-items: center;
+}
+
+.treatment-img > img {
+  margin-left: 20px;
+}
+
+/* treatment页面 */
+.exampel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* contact页面 */
+
+/* search页面 */
+
+.search {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.input {
+  background-color: rgb(255, 252, 233);
+}
+select {
+  margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding: 0;
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+  border-radius: 4px;	
+  transition: box-shadow 0.25s ease;
+  z-index: 2;
+}
+
+.button {
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 1rem;
+  text-indent: 1rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgb(153, 51, 0);
+  color: #FFFFFF;
+}
